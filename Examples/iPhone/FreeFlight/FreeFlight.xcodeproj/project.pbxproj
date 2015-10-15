@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AA868331BB9948200F275B2 /* LunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA868321BB9948200F275B2 /* LunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
-		0AA868391BB99CCB00F275B2 /* logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AA868381BB99CCB00F275B2 /* logo-white.png */; settings = {ASSET_TAGS = (); }; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -198,6 +196,7 @@
 		80BA537814924C7B00372BA1 /* MenuGuestSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BA537714924C7A00372BA1 /* MenuGuestSpace.m */; };
 		80BA537B14924E6700372BA1 /* MenuPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BA537A14924E6300372BA1 /* MenuPreferences.m */; };
 		80D7837B144874D3007952C1 /* ff2.0_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D78378144874D3007952C1 /* ff2.0_background.png */; };
+		80DDCA89153D6D7B004F3DD1 /* libARDroneEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DDCA88153D6D7B004F3DD1 /* libARDroneEngine.a */; };
 		80E1966C1538478C001F9E23 /* HelveticaNeue-CondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80E1966B1538478C001F9E23 /* HelveticaNeue-CondensedBold.ttf */; };
 		80E532951488E3BC00DF4FDC /* GoogleAPISignView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E532931488E3BC00DF4FDC /* GoogleAPISignView-iPad.xib */; };
 		80E532961488E3BC00DF4FDC /* GoogleAPISignView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E532941488E3BC00DF4FDC /* GoogleAPISignView.xib */; };
@@ -246,6 +245,12 @@
 		FD3D0F5F15189B62004C3B2E /* ff2.0_white_wtb.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3D0F5D15189B62004C3B2E /* ff2.0_white_wtb.png */; };
 		FD3D0F6015189B62004C3B2E /* ff2.0_white_wtb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3D0F5E15189B62004C3B2E /* ff2.0_white_wtb@2x.png */; };
 		FD84A1E214D1BAF800A50160 /* MenuGamesTrailer-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD84A1E114D1BAF800A50160 /* MenuGamesTrailer-iPad.xib */; };
+		FD8B5B67150E4CBA002CEA5E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B66150E4CBA002CEA5E /* Default-Portrait~ipad.png */; };
+		FD8B5B69150E4CCD002CEA5E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B68150E4CCD002CEA5E /* Default-Landscape~ipad.png */; };
+		FD8B5B6B150E4D1A002CEA5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B6A150E4D1A002CEA5E /* Default.png */; };
+		FD8B5B6F150E4D84002CEA5E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B6E150E4D84002CEA5E /* Default-Portrait@2x~ipad.png */; };
+		FD8B5B71150E4D9A002CEA5E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B70150E4D9A002CEA5E /* Default-Landscape@2x~ipad.png */; };
+		FD8B5B73150E5267002CEA5E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B72150E5267002CEA5E /* Default@2x.png */; };
 		FD8B5B81150F3BCA002CEA5E /* ff2.0_logo_freeflight.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B80150F3BC9002CEA5E /* ff2.0_logo_freeflight.png */; };
 		FD8B5B90150F5AE8002CEA5E /* ff2.0_uploaded_status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B8F150F5AE8002CEA5E /* ff2.0_uploaded_status@2x.png */; };
 		FD8B5B97150F795B002CEA5E /* ff2.0_photos.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B5B91150F794D002CEA5E /* ff2.0_photos.png */; };
@@ -377,8 +382,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AA868321BB9948200F275B2 /* LunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunchScreen.xib; sourceTree = "<group>"; };
-		0AA868381BB99CCB00F275B2 /* logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-white.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -636,6 +639,7 @@
 		80BA537914924E6100372BA1 /* MenuPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPreferences.h; sourceTree = "<group>"; };
 		80BA537A14924E6300372BA1 /* MenuPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuPreferences.m; sourceTree = "<group>"; };
 		80D78378144874D3007952C1 /* ff2.0_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff2.0_background.png; sourceTree = "<group>"; };
+		80DDCA88153D6D7B004F3DD1 /* libARDroneEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARDroneEngine.a; path = ../../../ControlEngine/iPhone/Debug/libARDroneEngine.a; sourceTree = "<group>"; };
 		80E1966B1538478C001F9E23 /* HelveticaNeue-CondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeue-CondensedBold.ttf"; sourceTree = "<group>"; };
 		80E532931488E3BC00DF4FDC /* GoogleAPISignView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GoogleAPISignView-iPad.xib"; sourceTree = "<group>"; };
 		80E532941488E3BC00DF4FDC /* GoogleAPISignView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleAPISignView.xib; sourceTree = "<group>"; };
@@ -815,6 +819,12 @@
 		FD3D0F5D15189B62004C3B2E /* ff2.0_white_wtb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff2.0_white_wtb.png; sourceTree = "<group>"; };
 		FD3D0F5E15189B62004C3B2E /* ff2.0_white_wtb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff2.0_white_wtb@2x.png"; sourceTree = "<group>"; };
 		FD84A1E114D1BAF800A50160 /* MenuGamesTrailer-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MenuGamesTrailer-iPad.xib"; sourceTree = "<group>"; };
+		FD8B5B66150E4CBA002CEA5E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		FD8B5B68150E4CCD002CEA5E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		FD8B5B6A150E4D1A002CEA5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		FD8B5B6E150E4D84002CEA5E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		FD8B5B70150E4D9A002CEA5E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		FD8B5B72150E5267002CEA5E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		FD8B5B80150F3BC9002CEA5E /* ff2.0_logo_freeflight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff2.0_logo_freeflight.png; sourceTree = "<group>"; };
 		FD8B5B8F150F5AE8002CEA5E /* ff2.0_uploaded_status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff2.0_uploaded_status@2x.png"; sourceTree = "<group>"; };
 		FD8B5B91150F794D002CEA5E /* ff2.0_photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff2.0_photos.png; sourceTree = "<group>"; };
@@ -1017,6 +1027,7 @@
 				8A885F62112005B800314ADB /* AudioToolbox.framework in Frameworks */,
 				2BFF9938144C5F7600534E5B /* libARDroneEngine.a in Frameworks */,
 				80F8FCE71474006900646DFE /* libGDataTouchStaticLib.a in Frameworks */,
+				80DDCA89153D6D7B004F3DD1 /* libARDroneEngine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,7 +1066,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				0AA868321BB9948200F275B2 /* LunchScreen.xib */,
 				801666DC152F3AC000889964 /* ARDroneLib.xcodeproj */,
 				8AB5D7F211E61A6F00218BA0 /* FreeFlight-Info.plist */,
 				68738E9510C6B8F1001F305B /* Ressources */,
@@ -1082,6 +1092,7 @@
 			children = (
 				80F8FCE61474006900646DFE /* libGDataTouchStaticLib.a */,
 				2BFF9937144C5F7600534E5B /* libARDroneEngine.a */,
+				80DDCA88153D6D7B004F3DD1 /* libARDroneEngine.a */,
 				801C2A5314EA918200DB84B2 /* ImageIO.framework */,
 				801AFDD514E273DD0061B0C9 /* MobileCoreServices.framework */,
 				80341462147165030056409B /* Security.framework */,
@@ -1151,6 +1162,13 @@
 		68738E9510C6B8F1001F305B /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				FDD4EC2D14E01B0B004DDE66 /* Localizable.strings */,
+				FD8B5B6A150E4D1A002CEA5E /* Default.png */,
+				FD8B5B72150E5267002CEA5E /* Default@2x.png */,
+				FD8B5B68150E4CCD002CEA5E /* Default-Landscape~ipad.png */,
+				FD8B5B70150E4D9A002CEA5E /* Default-Landscape@2x~ipad.png */,
+				FD8B5B66150E4CBA002CEA5E /* Default-Portrait~ipad.png */,
+				FD8B5B6E150E4D84002CEA5E /* Default-Portrait@2x~ipad.png */,
 				2BC3C91E14D008460036ECFE /* ff2.0_available_appstore.png */,
 				FDA42DC614F2586200F83BE4 /* ff2.0_battery_000.png */,
 				FDA42DC714F2586400F83BE4 /* ff2.0_battery_020.png */,
@@ -1172,6 +1190,17 @@
 				2BC3C8BB14CD96570036ECFE /* ff2.0_arrow_right@2x.png */,
 				2BC3C8CD14CEA4960036ECFE /* ff2.0_arrow_right_iPad.png */,
 				FDD4EC3E14E0254C004DDE66 /* ff2.0_arrow_left_iPad.png */,
+				2BC3C8B914CD96560036ECFE /* ff2.0_arrow_left.png */,
+				2BC3C8BA14CD96560036ECFE /* ff2.0_arrow_left@2x.png */,
+				2B5FA123144721A20086F4F1 /* ff2.0_arrow_up.png */,
+				2B21A3BD1498B702009A85E0 /* ff2.0_arrow_upload.png */,
+				2BC3C8CB14CDC02F0036ECFE /* ff2.0_arrow_upload@2x.png */,
+				80D78378144874D3007952C1 /* ff2.0_background.png */,
+				FDB3C8B31500CBF100BD1FB8 /* ff2.0_create_new_pin.png */,
+				2B21A3BB1498A353009A85E0 /* ff2.0_gray_private_lock.png */,
+				2B21A3B71498A323009A85E0 /* ff2.0_gray_public_lock.png */,
+				2BC3C8C314CDAA8F0036ECFE /* ff2.0_gray_private_lock@2x.png */,
+				2BC3C8C414CDAA8F0036ECFE /* ff2.0_gray_public_lock@2x.png */,
 				2BC3C8C514CDAA900036ECFE /* ff2.0_orange_private_lock@2x.png */,
 				2BC3C8C614CDAA900036ECFE /* ff2.0_orange_public_lock@2x.png */,
 				2BFB36FF1459852F0060693D /* ff2.0_cancel.png */,
@@ -1256,19 +1285,6 @@
 				3781EB6E1518839200A0D435 /* Icon-72@2x.png */,
 				8AC5D2C111E4AD8000AD2C00 /* Icon.png */,
 				2BC784121289A7D30081B3F3 /* Icon@2x.png */,
-				2BC3C8B914CD96560036ECFE /* ff2.0_arrow_left.png */,
-				2BC3C8BA14CD96560036ECFE /* ff2.0_arrow_left@2x.png */,
-				2B5FA123144721A20086F4F1 /* ff2.0_arrow_up.png */,
-				2B21A3BD1498B702009A85E0 /* ff2.0_arrow_upload.png */,
-				2BC3C8CB14CDC02F0036ECFE /* ff2.0_arrow_upload@2x.png */,
-				80D78378144874D3007952C1 /* ff2.0_background.png */,
-				FDB3C8B31500CBF100BD1FB8 /* ff2.0_create_new_pin.png */,
-				2B21A3BB1498A353009A85E0 /* ff2.0_gray_private_lock.png */,
-				2B21A3B71498A323009A85E0 /* ff2.0_gray_public_lock.png */,
-				2BC3C8C314CDAA8F0036ECFE /* ff2.0_gray_private_lock@2x.png */,
-				2BC3C8C414CDAA8F0036ECFE /* ff2.0_gray_public_lock@2x.png */,
-				0AA868381BB99CCB00F275B2 /* logo-white.png */,
-				FDD4EC2D14E01B0B004DDE66 /* Localizable.strings */,
 				2BF7F0911275CE26001C12F0 /* MainWindow-iPad.xib */,
 				8AB5D82011E61C2B00218BA0 /* MainWindow.xib */,
 				80EAAEA214BF2726007D276C /* Guest */,
@@ -1831,7 +1847,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0430;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = H52HPLX8LX;
@@ -1898,7 +1914,6 @@
 				2BC31E5514A48110003CEFF3 /* ff2.0_spinner_14.png in Resources */,
 				2BC31E5614A48110003CEFF3 /* ff2.0_spinner_15.png in Resources */,
 				2BC31E5714A48110003CEFF3 /* ff2.0_spinner_16.png in Resources */,
-				0AA868391BB99CCB00F275B2 /* logo-white.png in Resources */,
 				2BC31E5814A48110003CEFF3 /* ff2.0_spinner_17.png in Resources */,
 				8077848214A47B77003D839C /* Shader.vsh in Resources */,
 				8077848114A47B76003D839C /* Shader.fsh in Resources */,
@@ -2081,6 +2096,12 @@
 				FDA42DD914F27DE000F83BE4 /* ff2.0_demostore@2x.png in Resources */,
 				FDA42DDE14F2B24000F83BE4 /* GUEST_6.jpg in Resources */,
 				FDB3C8B41500CBF100BD1FB8 /* ff2.0_create_new_pin.png in Resources */,
+				FD8B5B67150E4CBA002CEA5E /* Default-Portrait~ipad.png in Resources */,
+				FD8B5B69150E4CCD002CEA5E /* Default-Landscape~ipad.png in Resources */,
+				FD8B5B6B150E4D1A002CEA5E /* Default.png in Resources */,
+				FD8B5B6F150E4D84002CEA5E /* Default-Portrait@2x~ipad.png in Resources */,
+				FD8B5B71150E4D9A002CEA5E /* Default-Landscape@2x~ipad.png in Resources */,
+				FD8B5B73150E5267002CEA5E /* Default@2x.png in Resources */,
 				FD8B5B81150F3BCA002CEA5E /* ff2.0_logo_freeflight.png in Resources */,
 				FD8B5B90150F5AE8002CEA5E /* ff2.0_uploaded_status@2x.png in Resources */,
 				FD8B5B97150F795B002CEA5E /* ff2.0_photos.png in Resources */,
@@ -2136,7 +2157,6 @@
 				FDD71EEF15133D6600F17F7A /* Joystick_Manuel_RETINA.png in Resources */,
 				FDD71EF015133D6600F17F7A /* Picto_USB_actif.png in Resources */,
 				FDD71EF115133D6600F17F7A /* play_icon.png in Resources */,
-				0AA868331BB9948200F275B2 /* LunchScreen.xib in Resources */,
 				FDD71EF215133D6600F17F7A /* plop.wav in Resources */,
 				FDD71EF315133D6600F17F7A /* arrow_left_gray.png in Resources */,
 				FDD71EF415133D6600F17F7A /* arrow_left_gray@2x.png in Resources */,
@@ -2363,6 +2383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION)";
@@ -2380,7 +2401,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "FreeFlight-Info.plist";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"../../../ControlEngine/iPhone/Release\"",
 					"\"Release\"",
@@ -2389,7 +2410,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDEBUG=1";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone21";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone";
 				PRODUCT_NAME = FreeFlight2;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -2403,6 +2424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2419,7 +2441,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "FreeFlight-Info.plist";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"../../../ControlEngine/iPhone/Release\"",
 					"\"Release\"",
@@ -2428,7 +2450,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone21";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone";
 				PRODUCT_NAME = FreeFlight2;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -2441,13 +2463,14 @@
 		3760914F13E06B7E00F1AD0A /* Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mykonos Mykonos";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mykonos Mykonos";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "12E2A3F3-14CA-4967-BAA1-3D57DD64C897";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12E2A3F3-14CA-4967-BAA1-3D57DD64C897";
@@ -2459,6 +2482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mykonos Mykonos";
 				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION)";
@@ -2474,7 +2498,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "FreeFlight-Info.plist";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"../../../ControlEngine/iPhone/Release\"",
 					"\"Release\"",
@@ -2483,7 +2507,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone21";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone";
 				PRODUCT_NAME = FreeFlightHD;
 				PROVISIONING_PROFILE = "12E2A3F3-14CA-4967-BAA1-3D57DD64C897";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12E2A3F3-14CA-4967-BAA1-3D57DD64C897";
@@ -2496,12 +2520,13 @@
 		8A9FD4B811A1988F008F631A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2512,6 +2537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION)";
@@ -2527,7 +2553,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "FreeFlight-Info.plist";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"\"../../../ControlEngine/iPhone/Release\"",
 					"\"Release\"",
@@ -2536,7 +2562,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone21";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.code-unit.ardrone";
 				PRODUCT_NAME = FreeFlight2;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -2549,15 +2575,15 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
@@ -2566,13 +2592,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;

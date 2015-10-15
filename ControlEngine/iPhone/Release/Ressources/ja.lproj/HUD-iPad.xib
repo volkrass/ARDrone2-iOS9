@@ -160,7 +160,7 @@
 									<string key="NSResourceName">Picto_Warning.png</string>
 								</object>
 							</object>
-							<object class="IBUIProgressView" id="260601220">
+							<object class="IBUIProgressView" id="878902298">
 								<reference key="NSNextResponder" ref="828725426"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{160, 115}, {460, 9}}</string>
@@ -182,7 +182,7 @@
 								<string key="NSFrame">{{140, 10}, {460, 130}}</string>
 								<reference key="NSSuperview" ref="828725426"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="260601220"/>
+								<reference key="NSNextKeyView" ref="878902298"/>
 								<string key="NSReuseIdentifierKey">_NS:328</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -790,7 +790,7 @@
 							<object class="IBUILabel" id="822183831">
 								<reference key="NSNextResponder" ref="1016094577"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{709, 0}, {250, 57}}</string>
+								<string key="NSFrame">{{709, 0}, {250, 58}}</string>
 								<reference key="NSSuperview" ref="1016094577"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="193676446"/>
@@ -800,7 +800,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">LOADING...</string>
+								<string type="base64-UTF8" key="IBUIText">44Ot44O844OJ5LitLi4uCg</string>
 								<object class="NSColor" key="IBUITextColor">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MSAwLjUAA</bytes>
@@ -898,8 +898,8 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">T046IE1PVkUgWU9VUiBMRUZUIFRIVU1CIE9OIFRIRSAKU0NSRUVOIFRPIENPTlRST0wgVEhFIEFSLkRS
-T05FA</string>
+						<string type="base64-UTF8" key="IBUIText">44Kq44OzOiBBUi5EUk9OReOCkuOCs+ODs+ODiOODreODvOODq+OBmeOCi+OBq+OBr+OAgQrnlLvpnaLj
+gpLlt6bopqrmjIfjgafjgr/jg4Pjg4HjgZfjgabjgY/jgaDjgZXjgYQ</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -909,8 +909,17 @@ T05FA</string>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUINumberOfLines">2</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="191732558"/>
-						<reference key="IBUIFont" ref="294782959"/>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="716161914">
+							<string key="name">HelveticaNeue-CondensedBold</string>
+							<string key="family">Helvetica Neue</string>
+							<int key="traits">2</int>
+							<double key="pointSize">25</double>
+						</object>
+						<object class="NSFont" key="IBUIFont" id="904815622">
+							<string key="NSName">HelveticaNeue-Bold</string>
+							<double key="NSSize">25</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 					<object class="IBUILabel" id="766898255">
 						<reference key="NSNextResponder" ref="952087727"/>
@@ -923,7 +932,7 @@ T05FA</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">JOYPAD MODE</string>
+						<string key="IBUIText">ジョイパッド モード</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -953,7 +962,8 @@ T05FA</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">T0ZGOiBUSUxUIFlPVVIgREVWSUNFIFRPIApDT05UUk9MIFRIRSBBUi5EUk9ORQ</string>
+						<string type="base64-UTF8" key="IBUIText">44Kq44OVOiBBUi5EUk9OReOCkuaTjee4puOBmeOCi+OBq+OBr+OAgQrjg4fjgqPjg5DjgqTjgrnjgpLl
+gr7jgZHjgabjgY/jgaDjgZXjgYQ</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -963,8 +973,8 @@ T05FA</string>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUINumberOfLines">2</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="191732558"/>
-						<reference key="IBUIFont" ref="294782959"/>
+						<reference key="IBUIFontDescription" ref="716161914"/>
+						<reference key="IBUIFont" ref="904815622"/>
 					</object>
 				</object>
 				<string key="NSFrameSize">{1024, 768}</string>
@@ -993,7 +1003,7 @@ T05FA</string>
 						<string key="NSFrameSize">{1024, 768}</string>
 						<reference key="NSSuperview" ref="630026544"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="433818463"/>
+						<reference key="NSNextKeyView" ref="964691382"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -1008,7 +1018,7 @@ T05FA</string>
 						<string key="NSFrame">{{236, 166}, {552, 2}}</string>
 						<reference key="NSSuperview" ref="630026544"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="480555653"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -1017,15 +1027,15 @@ T05FA</string>
 					<object class="IBUILabel" id="433818463">
 						<reference key="NSNextResponder" ref="630026544"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{48, 89}, {928, 80}}</string>
+						<string key="NSFrame">{{-115, 89}, {1254, 80}}</string>
 						<reference key="NSSuperview" ref="630026544"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="964691382"/>
+						<reference key="NSNextKeyView" ref="480555653"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ABSOLUTE CONTROL (only AR.Drone 2.0)</string>
+						<string key="IBUIText">ABSOLUTE CONTROL（AR.Drone 2.0のみ）</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1034,28 +1044,28 @@ T05FA</string>
 							<string key="name">HelveticaNeue-CondensedBold</string>
 							<string key="family">Helvetica Neue</string>
 							<int key="traits">2</int>
-							<double key="pointSize">56</double>
+							<double key="pointSize">43</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">56</double>
+							<double key="NSSize">43</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
 					<object class="IBUILabel" id="480555653">
 						<reference key="NSNextResponder" ref="630026544"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 618}, {1024, 150}}</string>
+						<string key="NSFrame">{{-411, 618}, {1846, 150}}</string>
 						<reference key="NSSuperview" ref="630026544"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
+						<reference key="NSNextKeyView" ref="454631218"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">QUNUSVZBVEUgIEFCU09MVVRFIENPTlRST0wgTU9ERSBGT1IgRUFTWSBDT05UUk9MIQo</string>
+						<string key="IBUIText">ABSOLUTE CONTROL モードに設定すると、操縦しやすくなります！</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1065,14 +1075,23 @@ T05FA</string>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUINumberOfLines">2</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="191732558"/>
-						<reference key="IBUIFont" ref="294782959"/>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">HelveticaNeue-CondensedBold</string>
+							<string key="family">Helvetica Neue</string>
+							<int key="traits">2</int>
+							<double key="pointSize">24</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue-Bold</string>
+							<double key="NSSize">24</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 				</object>
 				<string key="NSFrameSize">{1024, 768}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="454631218"/>
+				<reference key="NSNextKeyView" ref="433818463"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -1127,7 +1146,7 @@ T05FA</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">RECORD</string>
+						<string type="base64-UTF8" key="IBUIText">6Yyy55S7Cg</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1148,7 +1167,7 @@ T05FA</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">UFJFU1MgVEhFIFJFQyBCVVRUT04gVE8gU1RBUlQgQU5EIFNUT1AgUkVDT1JESU5HIFZJREVPCg</string>
+						<string key="IBUIText">ビデオ録画を開始、終了するには、録画ボタンを押してください</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1231,7 +1250,7 @@ T05FA</string>
 					<object class="IBUILabel" id="772558276">
 						<reference key="NSNextResponder" ref="411949194"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 668}, {1024, 100}}</string>
+						<string key="NSFrame">{{0, 661}, {1024, 100}}</string>
 						<reference key="NSSuperview" ref="411949194"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -1241,8 +1260,8 @@ T05FA</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">QUNUSVZBVEUgVEhFIFVTQiBSRUNPUkRJTkcgT1BUSU9OIFRPIFJFQ09SRCBESVJFQ1RMWSBPTiBBIFVT
-QiBLRVkKA</string>
+						<string type="base64-UTF8" key="IBUIText">VVNC44Kt44O844Gr6Yyy55S744GZ44KL44Gr44Gv44CBClVTQumMsueUu+OCkuioreWumuOCkuOCquOD
+s+OBq+OBl+OBpuOBj+OBoOOBleOBhA</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1272,7 +1291,7 @@ QiBLRVkKA</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="483968544">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1281,6 +1300,7 @@ QiBLRVkKA</string>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrameSize">{1024, 768}</string>
 						<reference key="NSSuperview" ref="483968544"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="623988643"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -1295,6 +1315,7 @@ QiBLRVkKA</string>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{236, 166}, {552, 2}}</string>
 						<reference key="NSSuperview" ref="483968544"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="300775422"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -1306,12 +1327,13 @@ QiBLRVkKA</string>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{48, 89}, {928, 80}}</string>
 						<reference key="NSSuperview" ref="483968544"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="540721077"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SWITCH</string>
+						<string key="IBUIText">切替</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1324,14 +1346,16 @@ QiBLRVkKA</string>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{0, 618}, {1024, 150}}</string>
 						<reference key="NSSuperview" ref="483968544"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">UFJFU1MgVEhJUyBCVVRUT04gVE8gU1dJVENIIEJFVFdFRU4KRlJPTlRBTCBDQU1FUkEgQU5EIFZFUlRJ
-Q0FMIENBTUVSQQo</string>
+						<string type="base64-UTF8" key="IBUIText">44OV44Ot44Oz44OI44Kr44Oh44Op44Go44Oc44OI44Og44Kr44Oh44Op44KSCuWIh+OCiuabv+OBiOOC
+i+OBq+OBr+OBk+OBruODnOOCv+ODs+OCkuaKvOOBl+OBpuOBj+OBoOOBleOBhA</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1346,6 +1370,8 @@ Q0FMIENBTUVSQQo</string>
 					</object>
 				</object>
 				<string key="NSFrameSize">{1024, 768}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="369189956"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -1422,7 +1448,7 @@ Q0FMIENBTUVSQQo</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">VE8gTEFORCwgUFJFU1MgVEhFIExBTkRJTkcgQlVUVE9OIE9OQ0UKA</string>
+						<string key="IBUIText">AR.DRONEを着陸させるには、LANDINGボタンを一度だけ押してください</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1515,7 +1541,7 @@ Q0FMIENBTUVSQQo</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">VE8gVEFLRSBPRkYsIFBSRVNTIFRIRSBUQUtFIE9GRiBCVVRUT04gT05DRQo</string>
+						<string key="IBUIText">離陸するには、TAKE OFFボタンを一度だけ押してください</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1598,7 +1624,7 @@ Q0FMIENBTUVSQQo</string>
 					<object class="IBUILabel" id="292874603">
 						<reference key="NSNextResponder" ref="641408719"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 618}, {1024, 150}}</string>
+						<string key="NSFrame">{{-58, 618}, {1141, 150}}</string>
 						<reference key="NSSuperview" ref="641408719"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -1608,8 +1634,8 @@ Q0FMIENBTUVSQQo</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">SU4gQ0FTRSBPRiBFTUVSR0VOQ1kgUFJFU1MgVEhJUyBCVVRUT04gVE8gU0hVVCBET1dOIFRIRSBFTkdJ
-TkVTCg</string>
+						<string type="base64-UTF8" key="IBUIText">6Z2e5bi45LqL5oWL44GM55m655Sf44GX44Gf5aC05ZCI44CB44Oi44O844K/44O844KS5YGc5q2i44GV
+44Gb44KL44Gr44Gv44CBCuOBk+OBruODnOOCv+ODs+OCkuaKvOOBl+OBpuOBj+OBoOOBleOBhA</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1681,7 +1707,7 @@ TkVTCg</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ALTITUDE</string>
+						<string type="base64-UTF8" key="IBUIText">6auY5bqmCg</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1702,7 +1728,7 @@ TkVTCg</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">CHANGE THE ALTITUDE LIMIT IN THE FLIGHT SETTINGS</string>
+						<string key="IBUIText">設定で高度制限を変更してください</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1774,7 +1800,7 @@ TkVTCg</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">HOVERING</string>
+						<string key="IBUIText">ホバリング</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1785,7 +1811,7 @@ TkVTCg</string>
 					<object class="IBUILabel" id="759093118">
 						<reference key="NSNextResponder" ref="576316280"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 618}, {1024, 150}}</string>
+						<string key="NSFrame">{{-0, 618}, {1024, 150}}</string>
 						<reference key="NSSuperview" ref="576316280"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -1795,7 +1821,7 @@ TkVTCg</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">UkVMRUFTRSBUSEUgQ09OVFJPTFMgVE8gQ0hBTkdFIFRPIEhPVkVSSU5HIE1PREUKA</string>
+						<string key="IBUIText">ホバリングに切り替えるには、画面から指を離してください</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1805,8 +1831,8 @@ TkVTCg</string>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUINumberOfLines">2</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="191732558"/>
-						<reference key="IBUIFont" ref="294782959"/>
+						<reference key="IBUIFontDescription" ref="716161914"/>
+						<reference key="IBUIFont" ref="904815622"/>
 					</object>
 				</object>
 				<string key="NSFrameSize">{1024, 768}</string>
@@ -1867,7 +1893,7 @@ TkVTCg</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">GEOLOCATION</string>
+						<string key="IBUIText">位置情報</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1878,7 +1904,7 @@ TkVTCg</string>
 					<object class="IBUILabel" id="384613465">
 						<reference key="NSNextResponder" ref="295851862"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{-28, 618}, {1081, 150}}</string>
+						<string key="NSFrame">{{0, 618}, {1024, 150}}</string>
 						<reference key="NSSuperview" ref="295851862"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -1888,8 +1914,8 @@ TkVTCg</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">QUNUSVZBVEUgTE9DQVRJT04gU0VSVklDRVMgT04gVEhFIElQSE9ORS9JUEFECkZPUiBVU0UgSU4gVEhF
-IEFSLkRST05FIEFDQURFTVkhCg</string>
+						<string type="base64-UTF8" key="IBUIText">QVIuRFJPTkXjgqLjgqvjg4fjg5/jg7zjgafkvb/nlKjjgZnjgovjgavjga/jgIEKSVBIT05FL0lQQUTk
+uIrjgafkvY3nva7mg4XloLHjgrXjg7zjg5PjgrnjgpLmnInlirnjgavjgZfjgabkuIvjgZXjgYTvvIE</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -1961,7 +1987,7 @@ IEFSLkRST05FIEFDQURFTVkhCg</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SHARE</string>
+						<string key="IBUIText">シェア</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -1982,8 +2008,7 @@ IEFSLkRST05FIEFDQURFTVkhCg</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">U0hBUkUgWU9VUiBWSURFT1MgQU5EIFBIT1RPUyBESVJFQ1RMWSBGUk9NIEFSLkZSRUVGTElHSFQgMi4w
-IQo</string>
+						<string key="IBUIText">AR.FREEFLIGHT 2.0からビデオと写真を直接投稿しよう！</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -2055,7 +2080,7 @@ IQo</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">FLIP (only AR.Drone 2.0)</string>
+						<string key="IBUIText">宙返り（AR.Drone 2.0のみ）</string>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -2076,8 +2101,9 @@ IQo</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">QUNUSVZBVEUgVEhFIEZMSVAgU0VUVElORyBBTkQgRE9VQkxFIFRBUApPTiBUSEUgU0NSRUVOIFRPIEZM
-SVAgQVMgWU9VIEZMWSEKA</string>
+						<string type="base64-UTF8" key="IBUIText">6Kit5a6a55S76Z2i44Gn5a6Z6L+U44KK44KS5pyJ5Yq544Gr44GZ44KM44Gw44CBCumjm+ihjOS4reOB
+q+eUu+mdouOCkuODgOODluODq+OCv+ODg+ODl+OBmeOCi+S6i+OBp+OAgeapn+S9k+OBjOWumei/lOOC
+iu+8gQ</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAgMC41AA</bytes>
@@ -2450,7 +2476,7 @@ SVAgQVMgWU9VIEZMWSEKA</string>
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">recordPV</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="260601220"/>
+						<reference key="destination" ref="878902298"/>
 					</object>
 					<int key="connectionID">1695</int>
 				</object>
@@ -2845,7 +2871,7 @@ SVAgQVMgWU9VIEZMWSEKA</string>
 							<reference ref="989725818"/>
 							<reference ref="264188228"/>
 							<reference ref="784800832"/>
-							<reference ref="260601220"/>
+							<reference ref="878902298"/>
 						</object>
 						<reference key="parent" ref="252807917"/>
 					</object>
@@ -2988,8 +3014,8 @@ SVAgQVMgWU9VIEZMWSEKA</string>
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="832632880"/>
 							<reference ref="759571196"/>
-							<reference ref="384613465"/>
 							<reference ref="391041153"/>
+							<reference ref="384613465"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -3328,7 +3354,7 @@ SVAgQVMgWU9VIEZMWSEKA</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">1694</int>
-						<reference key="object" ref="260601220"/>
+						<reference key="object" ref="878902298"/>
 						<reference key="parent" ref="828725426"/>
 					</object>
 				</object>

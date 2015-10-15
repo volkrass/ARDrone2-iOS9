@@ -164,11 +164,13 @@
         [self.delegate webViewControllerDidFinishLoad:self];
 }
 
-- (void)webView:(UIWebView *)_webView didFailLoadWithError:(NSError *)error {
+- (void)webView:(UIWebView *)_webView didFailLoadWithError:(NSError *)error
+{    
     // This error should be ignored
     if (error.code == NSURLErrorCancelled) 
         [webView setHidden:NO];
-    else {
+    else
+    {
         [spinner stopAnimating];
         [statusInfoLabel setText:[NSString stringWithFormat:LOCALIZED_STRING(@"Error: %@"), [error localizedDescription]]];
         [self centersStatusInfoLabel];
@@ -177,23 +179,28 @@
 
 #pragma mark - IBActions
 
-- (void)previousButtonClicked:(id)sender {
+- (void)previousButtonClicked:(id)sender
+{
     [webView goBack];
 }
 
-- (void)nextButtonClicked:(id)sender {
+- (void)nextButtonClicked:(id)sender
+{
     [webView goForward];
 }
 
-- (void)loadRequest:(NSURLRequest *)request {
+- (void)loadRequest:(NSURLRequest *)request
+{
     [webView loadRequest:request];
 }
 
-- (void)loadHTMLString:(NSString *)htmlString {
+- (void)loadHTMLString:(NSString *)htmlString
+{
     [webView loadHTMLString:htmlString baseURL:nil];
 }
 
-- (void)doneButtonClicked:(id)sender {
+- (void)doneButtonClicked:(id)sender
+{
     [self dismissModalViewControllerAnimated:YES];
 }
 

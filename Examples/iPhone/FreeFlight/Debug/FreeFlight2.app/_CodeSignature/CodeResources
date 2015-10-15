@@ -6,55 +6,55 @@
 	<dict>
 		<key>ARBottomBarView-iPad.nib</key>
 		<data>
-		7zIql4IEpFKCDBPrxxeCRxj1GXg=
+		oHhMssqosiqO5aMZrM1DquOebD4=
 		</data>
 		<key>ARBottomBarView.nib</key>
 		<data>
-		zA7E5CNKseu4lhqEPzHw4hB3QGA=
+		Ol7FF1gqog/UdPRkcmDoxG4D9S4=
 		</data>
 		<key>ARDronePlayerView-iPad.nib</key>
 		<data>
-		qaQ7SqD0Lw1u9FmWQnXtxcwK7BI=
+		pjKwLnl6V+Lxks9MAZex/NTF/Qs=
 		</data>
 		<key>ARDronePlayerView.nib</key>
 		<data>
-		fP1rfboxk+r0RB8DbD3qyNC1LOE=
+		2bvg3ONoxLh1sxJe7eWkQt7/tXE=
 		</data>
 		<key>ARLoadingView-iPad.nib</key>
 		<data>
-		B/k0+4QFztBH0ZxQhRkRXTNLQEg=
+		V2Z7NOhCty7fNA3PO1L0SBfaGOg=
 		</data>
 		<key>ARLoadingView.nib</key>
 		<data>
-		vp1AOQaAp+ucDOcAUdlV6ShlQSI=
+		cjcg1E64DgO19TRdQm8RdRzL7kQ=
 		</data>
 		<key>ARNavigationBarView-iPad.nib</key>
 		<data>
-		9IVfRhO/eURGl3ZDE8eyRtvsLqg=
+		XAyRb10dsy4Q7gEbjFbKrgh9sGU=
 		</data>
 		<key>ARNavigationBarView.nib</key>
 		<data>
-		7fWK24Miphb9XpnNwVSRcbWDysc=
+		6KvabFsyynXZvmpkN49n8Q7O8WQ=
 		</data>
 		<key>ARNavigationController.nib</key>
 		<data>
-		Np4XQiHDV9jot/NoFvd9lY/Vu6Y=
+		W/62s0e0vM6RDJDuLlCuJYkIwFc=
 		</data>
 		<key>ARStatusBarView-iPad.nib</key>
 		<data>
-		mo5dOGCkHXUXvL4jl1bXiZBAORg=
+		ECUk7/whpgJ10TIrp8GPLREYr5k=
 		</data>
 		<key>ARStatusBarView.nib</key>
 		<data>
-		USOp1TZIeirWCNiNEkXh7CtNCoQ=
+		wnv2JxKnwnuQupyT5ZhOx4Ite6E=
 		</data>
 		<key>ARWebView-iPad.nib</key>
 		<data>
-		LJKPxvQpvL2CUEhZtqMe5f320F0=
+		97GkowQIVK8NjOSVe6wfTpuU3hE=
 		</data>
 		<key>ARWebView.nib</key>
 		<data>
-		YLQJ/B1JUcgA+KSUay4KSybSieU=
+		el7oBK4Fw0bFG6hhxdDEpd3U+0M=
 		</data>
 		<key>Back_Btn_Settings.png</key>
 		<data>
@@ -227,11 +227,11 @@
 		</data>
 		<key>GoogleAPISignView-iPad.nib</key>
 		<data>
-		TXZrBpzp/rlWZSazLZR0Sq6IMXw=
+		OPu3Ug9PE3fE8Ohzh7Ei8uozX2w=
 		</data>
 		<key>GoogleAPISignView.nib</key>
 		<data>
-		EdAVq6xj2Yy/Y68jF58cHaGNZWg=
+		Oj2CMbyHK1Q0hJTeQh5CupgCA0A=
 		</data>
 		<key>HelveticaNeue-CondensedBold.ttf</key>
 		<data>
@@ -259,7 +259,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vefN0hZgth2Km5iaVsiMgxT+1vA=
+		9nfh2lRRxokgG1JRTBYrh7ik4GY=
 		</data>
 		<key>Joystick_Absolut_Control_RETINA.png</key>
 		<data>
@@ -293,109 +293,89 @@
 		<data>
 		voQu5Pz5RnA1U/AutGmGoZ/AjRw=
 		</data>
-		<key>LunchScreen.nib</key>
-		<data>
-		5ZwyVf5IHaeKSYFgn0A0l2cOBnw=
-		</data>
 		<key>MainWindow-iPad.nib</key>
 		<data>
-		+OGMu0QafarWPcguW6UsvVRXQm4=
+		xAeoeLTD7wzh6jCp10zrKDPSXyQ=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		NCVm7whJ4q++Z6YB10rYo8hso+8=
+		vZ84JXFuiKDSUTzZn3UrGGMymRA=
 		</data>
 		<key>MediaPhotoUploadingView-iPad.nib</key>
 		<data>
-		/0aC2hFy53Dg3l26BROkWUYXtXY=
+		sZkNrXR61lz8RGON46xg7m2HCvE=
 		</data>
 		<key>MediaPhotoUploadingView.nib</key>
 		<data>
-		+g/klAbblT+30DlVfEnGSyVycAI=
+		hfckYDsfs7BW5BnPUF3Z4DjbLk0=
 		</data>
 		<key>MediaThumbsView-iPad.nib</key>
 		<data>
-		gMVgw+5aQymBLBQsYEa5jEADkqY=
+		lseQoiiKtiWRD413B0Ylpw+TpN0=
 		</data>
 		<key>MediaThumbsView.nib</key>
 		<data>
-		MP/D66Yc3VBAKuCMFYh5nIyRLgs=
+		UBLMorvJbPJ3/5CA9mk45W7LFUM=
 		</data>
 		<key>MediaVideoUploadingView-iPad.nib</key>
 		<data>
-		PlmL8Z+2I1W4ExZ0vzQJFPJwe5c=
+		GhH6FkdHf1Ko0947eokpLwAF1aQ=
 		</data>
 		<key>MediaVideoUploadingView.nib</key>
 		<data>
-		90Irz54hc096+6YYdXFNWPuyi2E=
+		M7U8B0qGSC0UUZmtNYZsJ3EsO14=
 		</data>
 		<key>MediaView-iPad.nib</key>
 		<data>
-		fX+pUri9RX6MmpXSpEVv4/xTm/E=
+		aZKBJ1o9Q8fKzyC/DtzWGkwrSNg=
 		</data>
 		<key>MediaView.nib</key>
 		<data>
-		FB9Klk0tlafzxsfZrBOqlzboJts=
+		oNJz+XaY2EID4J5HtBlhfW6lPeY=
 		</data>
-		<key>MenuController.nib/objects-8.0+.nib</key>
+		<key>MenuController.nib</key>
 		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
-		</data>
-		<key>MenuController.nib/objects.nib</key>
-		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
-		</data>
-		<key>MenuController.nib/runtime.nib</key>
-		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
+		00m0/Ao5gUz8hsraa1zHv33vxII=
 		</data>
 		<key>MenuGames-iPad.nib</key>
 		<data>
-		m8yC6A3A2Rtk0qIVC6HQfW+7xWU=
+		2jdPJKARX79OuMOrHswj41eojQA=
 		</data>
 		<key>MenuGames.nib</key>
 		<data>
-		Qrckz9bOUoezWbK/wxEkjBotWE0=
+		D+3SObLlQmsIJnt7Oml7EiOZzEs=
 		</data>
 		<key>MenuGamesTrailer-iPad.nib</key>
 		<data>
-		MeH4gCsJ0qT2c1S2anS4D82XWh0=
+		iYTBGUeuBOwCoxVWnFzFYZTvlRI=
 		</data>
 		<key>MenuGamesTrailer.nib</key>
 		<data>
-		BuqIAl8MxS1IENoykJSfRGTwwXQ=
+		TdOjGUJOFe4QYMq8HMr2LrUiuqk=
 		</data>
 		<key>MenuHome-iPad.nib</key>
 		<data>
-		LkmiSybTXb6PPVe2QA+jjnIwmN4=
+		AF2GXuji7+5XMyyMDry8BNi8aZ4=
 		</data>
 		<key>MenuHome.nib</key>
 		<data>
-		CnWFFQPvaOkp2WeaCoZoBfcJoo8=
+		zvrRchSX8wnfj404/hIFH55+T34=
 		</data>
 		<key>MenuPreferences-iPad.nib</key>
 		<data>
-		JdVxRL1xkuevQPDQZvRyID/+npw=
+		HHFtHYHMkAZn2rNnA6N4ZU39JLM=
 		</data>
 		<key>MenuPreferences.nib</key>
 		<data>
-		q2o1TL03GGYPocKKjU0UVsIu2yY=
+		+RUvavsms80+6ds/1LXGg0YYMP8=
 		</data>
 		<key>MenuUpdater-iPad.nib</key>
 		<data>
 		8xgEoi+o6jB0gv+XfYtdEhSQ5B0=
 		</data>
-		<key>MenuUpdater.nib/objects-8.0+.nib</key>
+		<key>MenuUpdater.nib</key>
 		<data>
-		WXWlzsd+43BdjMDqy9XHKqpyNiY=
-		</data>
-		<key>MenuUpdater.nib/objects.nib</key>
-		<data>
-		WXWlzsd+43BdjMDqy9XHKqpyNiY=
-		</data>
-		<key>MenuUpdater.nib/runtime.nib</key>
-		<data>
-		0104v4AEwTL6hr4kKAeXMVVelGc=
+		1fVa5sbGFyXxkbsO2/OYe+oIjZU=
 		</data>
 		<key>Picto_Close_Window.png</key>
 		<data>
@@ -413,53 +393,21 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>SettingsMenu-iPad.nib/objects-8.0+.nib</key>
+		<key>SettingsMenu-iPad.nib</key>
 		<data>
-		guu+A3M7Zj8U0Kn1QYGuMTLhurg=
+		4NUBXkQvJWdtgLxv/WjazOSYo7k=
 		</data>
-		<key>SettingsMenu-iPad.nib/objects.nib</key>
+		<key>SettingsMenu-iPhone.nib</key>
 		<data>
-		guu+A3M7Zj8U0Kn1QYGuMTLhurg=
+		OEVJ+yEHxtbhXz8ZKk6OBx8anIQ=
 		</data>
-		<key>SettingsMenu-iPad.nib/runtime.nib</key>
+		<key>SettingsMenu2-iPad.nib</key>
 		<data>
-		xjrwalS0pg8sn3zaDxRwOpMNI3k=
+		jgCX3pnI7thYyGk9aPIaX3LY3+c=
 		</data>
-		<key>SettingsMenu-iPhone.nib/objects-8.0+.nib</key>
+		<key>SettingsMenu2-iPhone.nib</key>
 		<data>
-		rnwnfD3luXe4VbcmdTOEaLUOv0U=
-		</data>
-		<key>SettingsMenu-iPhone.nib/objects.nib</key>
-		<data>
-		rnwnfD3luXe4VbcmdTOEaLUOv0U=
-		</data>
-		<key>SettingsMenu-iPhone.nib/runtime.nib</key>
-		<data>
-		J1gvC6WGrhssfwCVQwNWTAxnNBk=
-		</data>
-		<key>SettingsMenu2-iPad.nib/objects-8.0+.nib</key>
-		<data>
-		m8uFgZyV/P8p2YAW4KV/1G3QLxs=
-		</data>
-		<key>SettingsMenu2-iPad.nib/objects.nib</key>
-		<data>
-		m8uFgZyV/P8p2YAW4KV/1G3QLxs=
-		</data>
-		<key>SettingsMenu2-iPad.nib/runtime.nib</key>
-		<data>
-		vxrSBJ9L9NuzHsUQgt6oRQbsH3g=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/objects-8.0+.nib</key>
-		<data>
-		TJRDoHGJtaw0IbnhAqIf+dUE9Ww=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/objects.nib</key>
-		<data>
-		TJRDoHGJtaw0IbnhAqIf+dUE9Ww=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/runtime.nib</key>
-		<data>
-		HhXCggjG1QRdTF4TCNRu7cgLCnk=
+		N9d4dwiTlWLiKPZ0Y6EVo3MMeUQ=
 		</data>
 		<key>Shader.fsh</key>
 		<data>
@@ -601,34 +549,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			/aUQ96Ma1LSQ4qgia8tsMut9Wz8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>de.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>de.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fQqxXRuFtDVU1BelH1v5YC4WV9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>de.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fQqxXRuFtDVU1BelH1v5YC4WV9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>de.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eTgMUpJAiOq/O29tBwU3bUJikLc=
+			rIf5wTJC2Ir+aBv/TWyjxell/+E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -646,7 +576,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XDJ0XGB6p6FN6egNstZ/xbuY7y0=
+			g5U3hpcP5l9h2EtiJ9OAFDIhBpE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -655,7 +585,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sbFKseANW0KHoUdGRbb0fLCYUdQ=
+			Pwx8IqJKaunpSCk0tALJau1lK5I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -682,38 +612,38 @@
 		<data>
 		IxgUurQRNrFufQWuLn6HzYkCcHI=
 		</data>
-		<key>en.lproj/HUD-iPad.nib/objects-8.0+.nib</key>
+		<key>en.lproj/HUD-iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DfD1QV49aiL5TXvzNCeiX3/ucGs=
+			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD-iPad.nib/objects.nib</key>
+		<key>en.lproj/HUD.nib/objects-8.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DfD1QV49aiL5TXvzNCeiX3/ucGs=
+			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD-iPad.nib/runtime.nib</key>
+		<key>en.lproj/HUD.nib/objects.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UykH5rf/nFqHkGF8PRKcZiK7uaE=
+			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD.nib</key>
+		<key>en.lproj/HUD.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZKmEYqtx3PM9Zeje7RukIFISGw4=
+			dUWomjkabkc64GQ9IxB+C4qbxco=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -731,7 +661,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JAqmM1daObzZRRcQxCkGaQqCpdo=
+			sEyasaehSaQlPGv1Y3uiVU+Fd2M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -740,7 +670,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xJYL+fnRy+mXI25vWckPwhZrslk=
+			sIM1uoJPexS7v4V/SnhgPgHq6oU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -758,34 +688,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			8L5H3Vi/BgECkOqe9vp2LbkeQHI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>es.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>es.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			DGFEbpbS15fEMh1zjskLrQuuQdQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -803,7 +715,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dA/CtwHHDBvXPaj9EAsTZsJAsYY=
+			eG/Bq0UUqHE8gtp7UhLp/07W5Jo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -812,7 +724,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2XDH5cOeob5sZ8WhkCAGhCiqS5Y=
+			eu0EDax/B2if40HVwReuoaLRpoc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1491,34 +1403,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			QUPUThDTJ96b/3erWjaoTniG/eY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fr.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>fr.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			xPHf2f5DlTdmffpi48u5M7/cwe0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1536,7 +1430,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UK9rN+wYTxhOOrTZIsl1ZZxNFoA=
+			gS2th679PAjhVnzVxizguoCMEKQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1545,7 +1439,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xz+WfN738W0YrdXWL+MqVm0iO5U=
+			Zr7j3wFJh/8tchqjmbUuXtFrEis=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1576,34 +1470,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			hxxUNa+j2HiTgRdBBg/vQitfhp4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>it.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>it.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			abWgcxTGjWUgI4OKZ3OkWNVIC08=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1621,7 +1497,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ROZfJRLFEx2QqKJZ24hUfjmQF4Y=
+			+McjUMopYZks2Bc0Z26HJ1FM/6I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1630,7 +1506,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			otTpcVLAwOoaLO/FbTa0DVQ/Tgs=
+			dX5tnwcaFuyGiazdeZfyNaad6PQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1657,34 +1533,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			+3Ez+Gi1MICp7VVNN4iw0r09QfY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ja.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>ja.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mW9BmfrXZgCdl38PWGYBiGpZhtI=
+			DQcXHq1ZHw8RuWTcHUtHLWUG/lw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1702,7 +1560,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vkyfFIaIOlzSGcLv/eU065wgLM0=
+			c9P/+L2zFWeOc0Iwx9/qYSs9Efs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1711,7 +1569,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dfZvzvb2M9Kvlyzdju8O9wPavQc=
+			ZAkdeOEiBx1ZStT3LbFPPPYvEZg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1734,10 +1592,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>logo-white.png</key>
-		<data>
-		UiXaNXqXic9foDoue1wytiqsRqw=
-		</data>
 		<key>menus_fsm.xml</key>
 		<data>
 		0B2rjPcUfBiLQsMTYVzFM/NZwq8=
@@ -1746,34 +1600,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			hbUkKpgvliFHNWhC2g5P1to6r9w=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>nl.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>nl.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nl.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nl.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			ZVi5U+l5eoOYVd4yKvky4FbRZNs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1791,7 +1627,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1GY4ershzULWSfiSYo5t9lBhXnQ=
+			ZiJkNzWKhBru78YZ7WtTBVeLCD0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1800,7 +1636,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qttg/Qxyua53/xInbB0L7AR0MjQ=
+			2BV6aTPR+jsMjyWqvtfr3gjYw/s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1835,34 +1671,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			gX95wYkSO2VBYXMk9a8ISjYSlws=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>pt.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			06PqohGqpzzC/GU5YeMoZA+s7Co=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1880,7 +1698,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UMPa39q/uaPS9/H5IQVFQPgr9aY=
+			yV5NhSwtwjf2G/U7eFGC23SdRnU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1889,7 +1707,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ahui1Zn3GTZBAu42y/+ssMP9G/s=
+			oSGCvikysfM4Cx3VVUVGV5NMsok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1960,56 +1778,20 @@
 		<data>
 		yo7aVd6mmbA+Tqm86jBz5U/6saM=
 		</data>
-		<key>zh-Hans.lproj/HUD-iPad.nib/objects-8.0+.nib</key>
+		<key>zh-Hans.lproj/HUD-iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YMwK3ObrDJ64UZw4GVSG+xBDs5Y=
+			py3dpM3Q4dZSOaWxCG0k7ZXypWc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>zh-Hans.lproj/HUD-iPad.nib/objects.nib</key>
+		<key>zh-Hans.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YMwK3ObrDJ64UZw4GVSG+xBDs5Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD-iPad.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zv72WiTy4S/WDBkKIsUWuE4lmsI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/objects-8.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Nx4ASPsEUbGCx/JRNnRVthVav1c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Nx4ASPsEUbGCx/JRNnRVthVav1c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BMuHBx2foBqZ3fEoUa/6FHOa+GY=
+			Qb/WL9GDfmLqcmCQjmPhRAlZGus=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2027,7 +1809,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V8M7yIvrAEvBuHcyi5ALNCEMnK0=
+			mNSepIVB9lixenUznxQ51AkQHo0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2036,7 +1818,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZVBKqcn95z0u6C7A33QLq7NO3GE=
+			x52gYbIgcnVR29FoHpK5dl9URAc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2064,55 +1846,55 @@
 	<dict>
 		<key>ARBottomBarView-iPad.nib</key>
 		<data>
-		7zIql4IEpFKCDBPrxxeCRxj1GXg=
+		oHhMssqosiqO5aMZrM1DquOebD4=
 		</data>
 		<key>ARBottomBarView.nib</key>
 		<data>
-		zA7E5CNKseu4lhqEPzHw4hB3QGA=
+		Ol7FF1gqog/UdPRkcmDoxG4D9S4=
 		</data>
 		<key>ARDronePlayerView-iPad.nib</key>
 		<data>
-		qaQ7SqD0Lw1u9FmWQnXtxcwK7BI=
+		pjKwLnl6V+Lxks9MAZex/NTF/Qs=
 		</data>
 		<key>ARDronePlayerView.nib</key>
 		<data>
-		fP1rfboxk+r0RB8DbD3qyNC1LOE=
+		2bvg3ONoxLh1sxJe7eWkQt7/tXE=
 		</data>
 		<key>ARLoadingView-iPad.nib</key>
 		<data>
-		B/k0+4QFztBH0ZxQhRkRXTNLQEg=
+		V2Z7NOhCty7fNA3PO1L0SBfaGOg=
 		</data>
 		<key>ARLoadingView.nib</key>
 		<data>
-		vp1AOQaAp+ucDOcAUdlV6ShlQSI=
+		cjcg1E64DgO19TRdQm8RdRzL7kQ=
 		</data>
 		<key>ARNavigationBarView-iPad.nib</key>
 		<data>
-		9IVfRhO/eURGl3ZDE8eyRtvsLqg=
+		XAyRb10dsy4Q7gEbjFbKrgh9sGU=
 		</data>
 		<key>ARNavigationBarView.nib</key>
 		<data>
-		7fWK24Miphb9XpnNwVSRcbWDysc=
+		6KvabFsyynXZvmpkN49n8Q7O8WQ=
 		</data>
 		<key>ARNavigationController.nib</key>
 		<data>
-		Np4XQiHDV9jot/NoFvd9lY/Vu6Y=
+		W/62s0e0vM6RDJDuLlCuJYkIwFc=
 		</data>
 		<key>ARStatusBarView-iPad.nib</key>
 		<data>
-		mo5dOGCkHXUXvL4jl1bXiZBAORg=
+		ECUk7/whpgJ10TIrp8GPLREYr5k=
 		</data>
 		<key>ARStatusBarView.nib</key>
 		<data>
-		USOp1TZIeirWCNiNEkXh7CtNCoQ=
+		wnv2JxKnwnuQupyT5ZhOx4Ite6E=
 		</data>
 		<key>ARWebView-iPad.nib</key>
 		<data>
-		LJKPxvQpvL2CUEhZtqMe5f320F0=
+		97GkowQIVK8NjOSVe6wfTpuU3hE=
 		</data>
 		<key>ARWebView.nib</key>
 		<data>
-		YLQJ/B1JUcgA+KSUay4KSybSieU=
+		el7oBK4Fw0bFG6hhxdDEpd3U+0M=
 		</data>
 		<key>Back_Btn_Settings.png</key>
 		<data>
@@ -2285,11 +2067,11 @@
 		</data>
 		<key>GoogleAPISignView-iPad.nib</key>
 		<data>
-		TXZrBpzp/rlWZSazLZR0Sq6IMXw=
+		OPu3Ug9PE3fE8Ohzh7Ei8uozX2w=
 		</data>
 		<key>GoogleAPISignView.nib</key>
 		<data>
-		EdAVq6xj2Yy/Y68jF58cHaGNZWg=
+		Oj2CMbyHK1Q0hJTeQh5CupgCA0A=
 		</data>
 		<key>HelveticaNeue-CondensedBold.ttf</key>
 		<data>
@@ -2347,109 +2129,89 @@
 		<data>
 		voQu5Pz5RnA1U/AutGmGoZ/AjRw=
 		</data>
-		<key>LunchScreen.nib</key>
-		<data>
-		5ZwyVf5IHaeKSYFgn0A0l2cOBnw=
-		</data>
 		<key>MainWindow-iPad.nib</key>
 		<data>
-		+OGMu0QafarWPcguW6UsvVRXQm4=
+		xAeoeLTD7wzh6jCp10zrKDPSXyQ=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		NCVm7whJ4q++Z6YB10rYo8hso+8=
+		vZ84JXFuiKDSUTzZn3UrGGMymRA=
 		</data>
 		<key>MediaPhotoUploadingView-iPad.nib</key>
 		<data>
-		/0aC2hFy53Dg3l26BROkWUYXtXY=
+		sZkNrXR61lz8RGON46xg7m2HCvE=
 		</data>
 		<key>MediaPhotoUploadingView.nib</key>
 		<data>
-		+g/klAbblT+30DlVfEnGSyVycAI=
+		hfckYDsfs7BW5BnPUF3Z4DjbLk0=
 		</data>
 		<key>MediaThumbsView-iPad.nib</key>
 		<data>
-		gMVgw+5aQymBLBQsYEa5jEADkqY=
+		lseQoiiKtiWRD413B0Ylpw+TpN0=
 		</data>
 		<key>MediaThumbsView.nib</key>
 		<data>
-		MP/D66Yc3VBAKuCMFYh5nIyRLgs=
+		UBLMorvJbPJ3/5CA9mk45W7LFUM=
 		</data>
 		<key>MediaVideoUploadingView-iPad.nib</key>
 		<data>
-		PlmL8Z+2I1W4ExZ0vzQJFPJwe5c=
+		GhH6FkdHf1Ko0947eokpLwAF1aQ=
 		</data>
 		<key>MediaVideoUploadingView.nib</key>
 		<data>
-		90Irz54hc096+6YYdXFNWPuyi2E=
+		M7U8B0qGSC0UUZmtNYZsJ3EsO14=
 		</data>
 		<key>MediaView-iPad.nib</key>
 		<data>
-		fX+pUri9RX6MmpXSpEVv4/xTm/E=
+		aZKBJ1o9Q8fKzyC/DtzWGkwrSNg=
 		</data>
 		<key>MediaView.nib</key>
 		<data>
-		FB9Klk0tlafzxsfZrBOqlzboJts=
+		oNJz+XaY2EID4J5HtBlhfW6lPeY=
 		</data>
-		<key>MenuController.nib/objects-8.0+.nib</key>
+		<key>MenuController.nib</key>
 		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
-		</data>
-		<key>MenuController.nib/objects.nib</key>
-		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
-		</data>
-		<key>MenuController.nib/runtime.nib</key>
-		<data>
-		FwIrQMYMZzWB0Sv2VioZrPNMrHg=
+		00m0/Ao5gUz8hsraa1zHv33vxII=
 		</data>
 		<key>MenuGames-iPad.nib</key>
 		<data>
-		m8yC6A3A2Rtk0qIVC6HQfW+7xWU=
+		2jdPJKARX79OuMOrHswj41eojQA=
 		</data>
 		<key>MenuGames.nib</key>
 		<data>
-		Qrckz9bOUoezWbK/wxEkjBotWE0=
+		D+3SObLlQmsIJnt7Oml7EiOZzEs=
 		</data>
 		<key>MenuGamesTrailer-iPad.nib</key>
 		<data>
-		MeH4gCsJ0qT2c1S2anS4D82XWh0=
+		iYTBGUeuBOwCoxVWnFzFYZTvlRI=
 		</data>
 		<key>MenuGamesTrailer.nib</key>
 		<data>
-		BuqIAl8MxS1IENoykJSfRGTwwXQ=
+		TdOjGUJOFe4QYMq8HMr2LrUiuqk=
 		</data>
 		<key>MenuHome-iPad.nib</key>
 		<data>
-		LkmiSybTXb6PPVe2QA+jjnIwmN4=
+		AF2GXuji7+5XMyyMDry8BNi8aZ4=
 		</data>
 		<key>MenuHome.nib</key>
 		<data>
-		CnWFFQPvaOkp2WeaCoZoBfcJoo8=
+		zvrRchSX8wnfj404/hIFH55+T34=
 		</data>
 		<key>MenuPreferences-iPad.nib</key>
 		<data>
-		JdVxRL1xkuevQPDQZvRyID/+npw=
+		HHFtHYHMkAZn2rNnA6N4ZU39JLM=
 		</data>
 		<key>MenuPreferences.nib</key>
 		<data>
-		q2o1TL03GGYPocKKjU0UVsIu2yY=
+		+RUvavsms80+6ds/1LXGg0YYMP8=
 		</data>
 		<key>MenuUpdater-iPad.nib</key>
 		<data>
 		8xgEoi+o6jB0gv+XfYtdEhSQ5B0=
 		</data>
-		<key>MenuUpdater.nib/objects-8.0+.nib</key>
+		<key>MenuUpdater.nib</key>
 		<data>
-		WXWlzsd+43BdjMDqy9XHKqpyNiY=
-		</data>
-		<key>MenuUpdater.nib/objects.nib</key>
-		<data>
-		WXWlzsd+43BdjMDqy9XHKqpyNiY=
-		</data>
-		<key>MenuUpdater.nib/runtime.nib</key>
-		<data>
-		0104v4AEwTL6hr4kKAeXMVVelGc=
+		1fVa5sbGFyXxkbsO2/OYe+oIjZU=
 		</data>
 		<key>Picto_Close_Window.png</key>
 		<data>
@@ -2463,53 +2225,21 @@
 		<data>
 		Z34SqS/fjfTuVEt0kmHsFQs8+RI=
 		</data>
-		<key>SettingsMenu-iPad.nib/objects-8.0+.nib</key>
+		<key>SettingsMenu-iPad.nib</key>
 		<data>
-		guu+A3M7Zj8U0Kn1QYGuMTLhurg=
+		4NUBXkQvJWdtgLxv/WjazOSYo7k=
 		</data>
-		<key>SettingsMenu-iPad.nib/objects.nib</key>
+		<key>SettingsMenu-iPhone.nib</key>
 		<data>
-		guu+A3M7Zj8U0Kn1QYGuMTLhurg=
+		OEVJ+yEHxtbhXz8ZKk6OBx8anIQ=
 		</data>
-		<key>SettingsMenu-iPad.nib/runtime.nib</key>
+		<key>SettingsMenu2-iPad.nib</key>
 		<data>
-		xjrwalS0pg8sn3zaDxRwOpMNI3k=
+		jgCX3pnI7thYyGk9aPIaX3LY3+c=
 		</data>
-		<key>SettingsMenu-iPhone.nib/objects-8.0+.nib</key>
+		<key>SettingsMenu2-iPhone.nib</key>
 		<data>
-		rnwnfD3luXe4VbcmdTOEaLUOv0U=
-		</data>
-		<key>SettingsMenu-iPhone.nib/objects.nib</key>
-		<data>
-		rnwnfD3luXe4VbcmdTOEaLUOv0U=
-		</data>
-		<key>SettingsMenu-iPhone.nib/runtime.nib</key>
-		<data>
-		J1gvC6WGrhssfwCVQwNWTAxnNBk=
-		</data>
-		<key>SettingsMenu2-iPad.nib/objects-8.0+.nib</key>
-		<data>
-		m8uFgZyV/P8p2YAW4KV/1G3QLxs=
-		</data>
-		<key>SettingsMenu2-iPad.nib/objects.nib</key>
-		<data>
-		m8uFgZyV/P8p2YAW4KV/1G3QLxs=
-		</data>
-		<key>SettingsMenu2-iPad.nib/runtime.nib</key>
-		<data>
-		vxrSBJ9L9NuzHsUQgt6oRQbsH3g=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/objects-8.0+.nib</key>
-		<data>
-		TJRDoHGJtaw0IbnhAqIf+dUE9Ww=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/objects.nib</key>
-		<data>
-		TJRDoHGJtaw0IbnhAqIf+dUE9Ww=
-		</data>
-		<key>SettingsMenu2-iPhone.nib/runtime.nib</key>
-		<data>
-		HhXCggjG1QRdTF4TCNRu7cgLCnk=
+		N9d4dwiTlWLiKPZ0Y6EVo3MMeUQ=
 		</data>
 		<key>Shader.fsh</key>
 		<data>
@@ -2651,34 +2381,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			/aUQ96Ma1LSQ4qgia8tsMut9Wz8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>de.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>de.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fQqxXRuFtDVU1BelH1v5YC4WV9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>de.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fQqxXRuFtDVU1BelH1v5YC4WV9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>de.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eTgMUpJAiOq/O29tBwU3bUJikLc=
+			rIf5wTJC2Ir+aBv/TWyjxell/+E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2696,7 +2408,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XDJ0XGB6p6FN6egNstZ/xbuY7y0=
+			g5U3hpcP5l9h2EtiJ9OAFDIhBpE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2705,7 +2417,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sbFKseANW0KHoUdGRbb0fLCYUdQ=
+			Pwx8IqJKaunpSCk0tALJau1lK5I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2732,38 +2444,38 @@
 		<data>
 		IxgUurQRNrFufQWuLn6HzYkCcHI=
 		</data>
-		<key>en.lproj/HUD-iPad.nib/objects-8.0+.nib</key>
+		<key>en.lproj/HUD-iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DfD1QV49aiL5TXvzNCeiX3/ucGs=
+			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD-iPad.nib/objects.nib</key>
+		<key>en.lproj/HUD.nib/objects-8.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DfD1QV49aiL5TXvzNCeiX3/ucGs=
+			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD-iPad.nib/runtime.nib</key>
+		<key>en.lproj/HUD.nib/objects.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UykH5rf/nFqHkGF8PRKcZiK7uaE=
+			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/HUD.nib</key>
+		<key>en.lproj/HUD.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZKmEYqtx3PM9Zeje7RukIFISGw4=
+			dUWomjkabkc64GQ9IxB+C4qbxco=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2781,7 +2493,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JAqmM1daObzZRRcQxCkGaQqCpdo=
+			sEyasaehSaQlPGv1Y3uiVU+Fd2M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2790,7 +2502,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xJYL+fnRy+mXI25vWckPwhZrslk=
+			sIM1uoJPexS7v4V/SnhgPgHq6oU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2808,34 +2520,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			8L5H3Vi/BgECkOqe9vp2LbkeQHI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>es.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>es.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			DGFEbpbS15fEMh1zjskLrQuuQdQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2853,7 +2547,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dA/CtwHHDBvXPaj9EAsTZsJAsYY=
+			eG/Bq0UUqHE8gtp7UhLp/07W5Jo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2862,7 +2556,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2XDH5cOeob5sZ8WhkCAGhCiqS5Y=
+			eu0EDax/B2if40HVwReuoaLRpoc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3541,34 +3235,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			QUPUThDTJ96b/3erWjaoTniG/eY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fr.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>fr.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			xPHf2f5DlTdmffpi48u5M7/cwe0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3586,7 +3262,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UK9rN+wYTxhOOrTZIsl1ZZxNFoA=
+			gS2th679PAjhVnzVxizguoCMEKQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3595,7 +3271,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xz+WfN738W0YrdXWL+MqVm0iO5U=
+			Zr7j3wFJh/8tchqjmbUuXtFrEis=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3626,34 +3302,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			hxxUNa+j2HiTgRdBBg/vQitfhp4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>it.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>it.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>it.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			abWgcxTGjWUgI4OKZ3OkWNVIC08=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3671,7 +3329,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ROZfJRLFEx2QqKJZ24hUfjmQF4Y=
+			+McjUMopYZks2Bc0Z26HJ1FM/6I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3680,7 +3338,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			otTpcVLAwOoaLO/FbTa0DVQ/Tgs=
+			dX5tnwcaFuyGiazdeZfyNaad6PQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3707,34 +3365,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			+3Ez+Gi1MICp7VVNN4iw0r09QfY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ja.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>ja.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mW9BmfrXZgCdl38PWGYBiGpZhtI=
+			DQcXHq1ZHw8RuWTcHUtHLWUG/lw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3752,7 +3392,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vkyfFIaIOlzSGcLv/eU065wgLM0=
+			c9P/+L2zFWeOc0Iwx9/qYSs9Efs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3761,7 +3401,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dfZvzvb2M9Kvlyzdju8O9wPavQc=
+			ZAkdeOEiBx1ZStT3LbFPPPYvEZg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3784,10 +3424,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>logo-white.png</key>
-		<data>
-		UiXaNXqXic9foDoue1wytiqsRqw=
-		</data>
 		<key>menus_fsm.xml</key>
 		<data>
 		0B2rjPcUfBiLQsMTYVzFM/NZwq8=
@@ -3796,34 +3432,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ7tsOQIbJH9J69kWfE23J0ZYlA=
+			hbUkKpgvliFHNWhC2g5P1to6r9w=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>nl.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>nl.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nl.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nl.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			ZVi5U+l5eoOYVd4yKvky4FbRZNs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3841,7 +3459,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1GY4ershzULWSfiSYo5t9lBhXnQ=
+			ZiJkNzWKhBru78YZ7WtTBVeLCD0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3850,7 +3468,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qttg/Qxyua53/xInbB0L7AR0MjQ=
+			2BV6aTPR+jsMjyWqvtfr3gjYw/s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3885,34 +3503,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X0C4sBTSnsMWuimu5xXCzelFbGg=
+			gX95wYkSO2VBYXMk9a8ISjYSlws=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt.lproj/HUD.nib/objects-8.0+.nib</key>
+		<key>pt.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ma6vbGDCPjCk6G5Y28xMv357Y4Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dUWomjkabkc64GQ9IxB+C4qbxco=
+			06PqohGqpzzC/GU5YeMoZA+s7Co=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3930,7 +3530,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UMPa39q/uaPS9/H5IQVFQPgr9aY=
+			yV5NhSwtwjf2G/U7eFGC23SdRnU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3939,7 +3539,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ahui1Zn3GTZBAu42y/+ssMP9G/s=
+			oSGCvikysfM4Cx3VVUVGV5NMsok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4010,56 +3610,20 @@
 		<data>
 		yo7aVd6mmbA+Tqm86jBz5U/6saM=
 		</data>
-		<key>zh-Hans.lproj/HUD-iPad.nib/objects-8.0+.nib</key>
+		<key>zh-Hans.lproj/HUD-iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YMwK3ObrDJ64UZw4GVSG+xBDs5Y=
+			py3dpM3Q4dZSOaWxCG0k7ZXypWc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>zh-Hans.lproj/HUD-iPad.nib/objects.nib</key>
+		<key>zh-Hans.lproj/HUD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YMwK3ObrDJ64UZw4GVSG+xBDs5Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD-iPad.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zv72WiTy4S/WDBkKIsUWuE4lmsI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/objects-8.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Nx4ASPsEUbGCx/JRNnRVthVav1c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/objects.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Nx4ASPsEUbGCx/JRNnRVthVav1c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hans.lproj/HUD.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BMuHBx2foBqZ3fEoUa/6FHOa+GY=
+			Qb/WL9GDfmLqcmCQjmPhRAlZGus=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4077,7 +3641,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V8M7yIvrAEvBuHcyi5ALNCEMnK0=
+			mNSepIVB9lixenUznxQ51AkQHo0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4086,7 +3650,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZVBKqcn95z0u6C7A33QLq7NO3GE=
+			x52gYbIgcnVR29FoHpK5dl9URAc=
 			</data>
 			<key>optional</key>
 			<true/>

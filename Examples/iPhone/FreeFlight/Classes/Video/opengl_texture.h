@@ -12,16 +12,16 @@
 #include <OpenGLES/ES2/gl.h>
 #include <OpenGLES/ES2/glext.h>
 
-typedef enum {
-    
+typedef enum
+{
 	NO_SCALING,
 	FIT_X,
 	FIT_Y,
 	FIT_XY
 } ARDroneScaling;
 
-typedef enum {
-    
+typedef enum
+{
     OPENGL_STATE_INITIALIZED = 0,
     OPENGL_STATE_GENERATED,
     OPENGL_STATE_SEND_TO_GPU

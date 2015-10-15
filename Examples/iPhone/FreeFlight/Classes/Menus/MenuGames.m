@@ -4,7 +4,6 @@
 //
 //  Created by Nicolas Payot on 12/10/11.
 //  Copyright 2011 PARROT. All rights reserved.
-//  Updated for iOS 9 By Code Unit.
 //
 
 #import "MenuGames.h"
@@ -36,15 +35,15 @@
 
 #define NEWSLETTER_URL          @"http://www.parrot-register.com/newsletter.asp?mail="
 
-typedef enum {
-    
+typedef enum 
+{
     NEWSLETTER_TAG = 100,
     EMAIL_TAG = 101,
     ARDRONE2_TAB_TAG = 102
 } eAlertViewTag;
 
-- (id)initWithController:(MenuController *)menuController {
-    
+- (id)initWithController:(MenuController *)menuController
+{
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
         self = [super initWithNibName:@"MenuGames-iPad" bundle:nil];
     else
@@ -153,8 +152,8 @@ typedef enum {
     [gamesTrailers addObject:RESCUE_TRAILER_ID];
     
     // Only for iPhone / iPod...
-    if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad) {
-        
+    if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad)
+    {
         [leftScrollView setFrame:CGRectMake(10.f, 10.f, 200.f, 214.f)];
         [leftScrollView setContentSize:CGSizeMake(leftScrollView.frame.size.width, (int)ceilf(buttons.count / 2.f) * BUTTON_HEIGHT)];
         [contentView addSubview:leftScrollView];
@@ -175,26 +174,26 @@ typedef enum {
     [ardrone1Button setSelected:YES];
 }
 
-- (void)viewDidUnload {
-    
+- (void)viewDidUnload
+{
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
     // Return YES for supported orientations
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
-- (IBAction)backToMenuHome {
-    
+- (IBAction)backToMenuHome
+{
     [controller doAction:MENU_FF_ACTION_JUMP_TO_HOME];
 }
 
-- (IBAction)displayGameInformation:(id)sender {
-    
+- (IBAction)displayGameInformation:(id)sender
+{   
     // Store tag of selected game
     selectedGame = ((UIButton *)sender).tag;
     
@@ -218,8 +217,8 @@ typedef enum {
     [gameDescription setContentInset:UIEdgeInsetsMake(-10.f, 0.f, 0.f, 0.f)];
 }
 
-- (void)setDownloadOrPlayTitleWithTag:(NSInteger)tag {
-    
+- (void)setDownloadOrPlayTitleWithTag:(NSInteger)tag
+{
     NSString *localURL = [[[gamesURLs objectAtIndex:tag] allKeys] objectAtIndex:0];
     NSURL *gameURL = [NSURL URLWithString:localURL];
     
@@ -246,8 +245,8 @@ typedef enum {
     }
 }
 
-- (IBAction)downloadOrPlayGame:(id)sender {
-    
+- (IBAction)downloadOrPlayGame:(id)sender
+{
     NSString *gameURL = nil;
     switch (((UIButton *)sender).tag) 
     {
@@ -260,9 +259,9 @@ typedef enum {
             break;
     }
         
-    if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:gameURL]]) {
-        
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[gamesTitles objectAtIndex:selectedGame]
+    if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:gameURL]])
+    {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[gamesTitles objectAtIndex:selectedGame] 
                                                             message:LOCALIZED_STRING(@"Sorry, this game is not available.")
                                                            delegate:self cancelButtonTitle:@"OK"
                                                 otherButtonTitles:nil, nil];
@@ -273,8 +272,8 @@ typedef enum {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:gameURL]];
 }
 
-- (void)watchTrailerButtonClicked {
-    
+- (void)watchTrailerButtonClicked
+{        
     MenuGamesTrailer *menuGamesTrailerViewController = [[MenuGamesTrailer alloc] initWithNibName:@"MenuGamesTrailer" bundle:nil];
     [menuGamesTrailerViewController setTrailerName:[gamesTitles objectAtIndex:selectedGame]];
     [menuGamesTrailerViewController setTrailerID:[gamesTrailers objectAtIndex:selectedGame]];
@@ -282,8 +281,8 @@ typedef enum {
     [menuGamesTrailerViewController release];
 }
 
-- (IBAction)sendToFriendButtonClicked {
-    
+- (IBAction)sendToFriendButtonClicked
+{                
     MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
     [mailViewController setMailComposeDelegate:self];
     [mailViewController setSubject:[NSString stringWithFormat:LOCALIZED_STRING(@"Discover: \"%@\""), [gamesTitles objectAtIndex:selectedGame]]];
@@ -308,8 +307,8 @@ typedef enum {
     [mailViewController release];
 }
 
-- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
-    
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
     [self dismissModalViewControllerAnimated:YES];
 }
 

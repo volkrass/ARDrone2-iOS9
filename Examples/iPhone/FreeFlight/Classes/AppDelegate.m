@@ -63,8 +63,7 @@
 - (void) applicationDidFinishLaunching:(UIApplication *)application
 {
 	application.idleTimerDisabled = YES;
-    
-    //Fix for iOS 9
+
     [self.window makeKeyAndVisible];
     self.window.frame = [[UIScreen mainScreen] bounds];
     
@@ -91,11 +90,11 @@
 
 #pragma mark -
 #pragma mark Drone protocol implementation
-- (void)changeState:(BOOL)inGame {
-    
+- (void)changeState:(BOOL)inGame
+{
 	was_in_game = inGame;
-	if (inGame) {
-        
+	if (inGame)
+	{
 		int value;
 		[drone setScreenOrientationRight:(menuController.interfaceOrientation == UIInterfaceOrientationLandscapeRight)];
 		value = ARDRONE_CAMERA_DETECTION_NONE;
@@ -106,8 +105,8 @@
         
         [[(AppDelegate *)[UIApplication sharedApplication].delegate window] setBackgroundColor:[UIColor blackColor]];
     }
-    else {
-        
+    else
+    {
         [[(AppDelegate *)[UIApplication sharedApplication].delegate window] setBackgroundColor:[UIColor whiteColor]];
 	}
     
@@ -115,8 +114,8 @@
 	[glView changeState:inGame];
 }
 
-- (void) applicationWillResignActive:(UIApplication *)application {
-    
+- (void) applicationWillResignActive:(UIApplication *)application
+{
 	// Become inactive
 	if(was_in_game)
 	{
@@ -126,18 +125,18 @@
     // NO ELSE - MenuController is in charge to change state
 }
 
-- (void) applicationDidBecomeActive:(UIApplication *)application {
-    
-	if(was_in_game) {
-        
+- (void) applicationDidBecomeActive:(UIApplication *)application
+{
+	if(was_in_game)
+	{
 		[drone changeState:YES];
 		[glView changeState:YES];
 	}
     // NO ELSE - MenuController is in charge to change state
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    
+- (void)applicationWillTerminate:(UIApplication *)application
+{
 	printf("%s : %d\n", __FUNCTION__, was_in_game);
     
     [[GoogleAPIManager sharedInstance] signOut];

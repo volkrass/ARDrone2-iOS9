@@ -3,17 +3,16 @@
 //  FreeFlight
 //
 //  Created by Frédéric D'HAEYER on 24/10/11.
-//  Copyright 2011 PARROT. All rights reserved.#
-//  Updated for iOS 9 by Code Unit
+//  Copyright 2011 PARROT. All rights reserved.
 //
-
 #include "opengl_shader.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 /* Create and compile a shader from the provided source(s) */
-GLint opengl_shader_compile(GLuint *shader, GLenum type, GLsizei count, const char* content_file) {
+GLint opengl_shader_compile(GLuint *shader, GLenum type, GLsizei count, const char* content_file)
+{
 #if defined(DEBUG_SHADER)
     printf("%s : %d\n", __FUNCTION__, __LINE__);
 #endif
@@ -34,7 +33,8 @@ GLint opengl_shader_compile(GLuint *shader, GLenum type, GLsizei count, const ch
 #if defined(DEBUG_SHADER)
 	GLint logLength;
     glGetShaderiv(*shader, GL_INFO_LOG_LENGTH, &logLength);
-    if (logLength > 0) {
+    if (logLength > 0)
+    {
         GLchar *log = (GLchar *)vp_os_malloc(logLength);
         glGetShaderInfoLog(*shader, logLength, &logLength, log);
         printf("Shader compile log:\n%s\n", log);
@@ -43,7 +43,8 @@ GLint opengl_shader_compile(GLuint *shader, GLenum type, GLsizei count, const ch
 #endif
     
     glGetShaderiv(*shader, GL_COMPILE_STATUS, &status);
-    if (status == GL_FALSE) {
+    if (status == GL_FALSE)
+	{
 		printf("Failed to compile shader:\n");
 		printf("%s\n", sources);
 	}
@@ -53,7 +54,8 @@ GLint opengl_shader_compile(GLuint *shader, GLenum type, GLsizei count, const ch
 
 
 /* Link a program with all currently attached shaders */
-GLint opengl_shader_link(GLuint prog) {
+GLint opengl_shader_link(GLuint prog)
+{
 #if defined(DEBUG_SHADER)
     printf("%s : %d\n", __FUNCTION__, __LINE__);
 #endif
@@ -64,7 +66,8 @@ GLint opengl_shader_link(GLuint prog) {
 #if defined(DEBUG_SHADER)
 	GLint logLength;
     glGetProgramiv(prog, GL_INFO_LOG_LENGTH, &logLength);
-    if (logLength > 0) {
+    if (logLength > 0)
+    {
         GLchar *log = (GLchar *)vp_os_malloc(logLength);
         glGetProgramInfoLog(prog, logLength, &logLength, log);
         printf("Program link log:\n%s\n", log);
@@ -81,7 +84,8 @@ GLint opengl_shader_link(GLuint prog) {
 
 
 /* Validate a program (for i.e. inconsistent samplers) */
-GLint opengl_shader_validate(GLuint prog) {
+GLint opengl_shader_validate(GLuint prog)
+{
 #if defined(DEBUG_SHADER)
     printf("%s : %d\n", __FUNCTION__, __LINE__);
 #endif

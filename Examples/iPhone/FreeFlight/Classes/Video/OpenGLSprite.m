@@ -18,8 +18,10 @@ static CGFloat const identityMatrix[] = {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0
 @implementation OpenGLSprite
 @synthesize screenOrientationRight;
 
-- (id)initWithFrame:(CGRect)frame withScaling:(ARDroneScaling)_scaling withProgram:(GLuint)programId withDrone:(ARDrone*)drone withDelegate:(id)_delegate {
-	if ((self = [super init])) {
+- (id)initWithFrame:(CGRect)frame withScaling:(ARDroneScaling)_scaling withProgram:(GLuint)programId withDrone:(ARDrone*)drone withDelegate:(id)_delegate
+{
+	if ((self = [super init]))
+	{
 		// ScreenSize
 		screen_size.width = frame.size.width;
 		screen_size.height = frame.size.height;
@@ -52,9 +54,11 @@ static CGFloat const identityMatrix[] = {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0
 	return self;
 }
 
-- (BOOL)checkNewResolution {
+- (BOOL)checkNewResolution
+{
 	BOOL result = NO;
-	if ((old_size.width != texture->image_size.width) || (old_size.height != texture->image_size.height)) {
+	if ((old_size.width != texture->image_size.width) || (old_size.height != texture->image_size.height)) 
+	{
 		NSLog(@"%s old_size : %d, %d - texture : %d, %d", __FUNCTION__, (int)old_size.width, (int)old_size.height, (int)texture->image_size.width, (int)texture->image_size.height);
 		opengl_texture_scale_compute(texture, screen_size, scaling);
         [self setScreenOrientationRight:screenOrientationRight];
@@ -66,15 +70,18 @@ static CGFloat const identityMatrix[] = {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0
 	return result;
 }
 
-- (void)drawSelf {
+- (void)drawSelf
+{
    // opengl_context_t context;
     BOOL new_resolution = [self checkNewResolution];
         
     // Bind the background texture
     // Draw video
-    if(new_resolution) {
+    if(new_resolution)
+    {            
         GLuint texScaleUniform = glGetUniformLocation(program, "texscale");
-        GLfloat textureScaleMatrix[] = {
+        GLfloat textureScaleMatrix[] =
+        {
             texture->scaleTextureX, 0.0f,
             0.0f, texture->scaleTextureY,
         };
@@ -83,20 +90,24 @@ static CGFloat const identityMatrix[] = {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0
     opengl_texture_draw(texture, program);
 }
 
-- (void)setScaling:(ARDroneScaling)newScaling {
+- (void)setScaling:(ARDroneScaling)newScaling
+{
     scaling = newScaling;
     opengl_texture_scale_compute(texture, screen_size, newScaling);
 }
 
-- (ARDroneScaling)getScaling {
+- (ARDroneScaling)getScaling
+{
     return scaling;
 }
 
-- (ARDroneOpenGLTexture *)getTexture {
+- (ARDroneOpenGLTexture *)getTexture
+{
     return texture;
 }
 
-- (void)dealloc {
+- (void)dealloc
+{
 	// destroy the texture
 	opengl_texture_destroy(texture);
     

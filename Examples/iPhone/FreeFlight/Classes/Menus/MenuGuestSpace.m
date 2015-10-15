@@ -25,8 +25,8 @@
 #define FACEBOOK_URL        @"http://www.facebook.com/parrot"
 #define TWITTER_URL         @"http://www.twitter.com/ardrone"
 
-typedef enum  {
-    
+typedef enum 
+{
     WHERE_TO_BUY_TAG    = 100,
     WEBSITE_TAG         = 101,
     NEWSLETTER_TAG      = 102, 
@@ -34,8 +34,8 @@ typedef enum  {
     TWITTER_TAG         = 104
 } eAlertViewTag;
 
-- (id)initWithController:(MenuController *)menuController {
-    
+- (id)initWithController:(MenuController *)menuController
+{
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
         self = [super initWithNibName:@"MenuGuestSpace-iPad" bundle:nil];
     else
@@ -47,8 +47,8 @@ typedef enum  {
     return self;
 }
 
-- (void)dealloc {
-    
+- (void)dealloc
+{
     [statusBar release];
     [navBar release];
     [scrollView release];
@@ -62,8 +62,8 @@ typedef enum  {
     [super dealloc];
 }
 
-- (void)didReceiveMemoryWarning {
-    
+- (void)didReceiveMemoryWarning
+{
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
@@ -72,8 +72,8 @@ typedef enum  {
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad {
-    
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
@@ -112,8 +112,8 @@ typedef enum  {
     [guestViews addObject:guestView5];
     [guestViews addObject:guestView6];
     
-    for (UIView *guestView in guestViews) {
-        
+    for (UIView *guestView in guestViews)
+    {
         scrollView.contentSize = CGSizeMake(scrollView.contentSize.width + scrollView.frame.size.width, scrollView.frame.size.height);
         guestView.frame = frame;
         frame.origin.x += frame.size.width;
@@ -133,15 +133,15 @@ typedef enum  {
     m_visibleView = INFORMATIONS_VIEW;
 }
 
-- (void)viewDidUnload {
-    
+- (void)viewDidUnload
+{
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)_scrollView {
-    
+- (void)scrollViewDidScroll:(UIScrollView *)_scrollView
+{
 	int currentPage = (int) (scrollView.contentOffset.x + .5f * scrollView.frame.size.width) / scrollView.frame.size.width;
     
     if(currentPage == 0)
@@ -161,19 +161,19 @@ typedef enum  {
     }
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
     // Return YES for supported orientations
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
-- (IBAction)backToMenuHome {
-    
+- (IBAction)backToMenuHome
+{
     [controller doAction:MENU_FF_ACTION_JUMP_TO_HOME];
 }
 
-- (IBAction) buttonUp:(id)button {
-    
+- (IBAction) buttonUp:(id)button
+{
 	int currentPage = (int) (scrollView.contentOffset.x + .5f * scrollView.frame.size.width) / scrollView.frame.size.width;
 	if ( (currentPage > 0) && (button == previous) )
 		[scrollView setContentOffset:CGPointMake((currentPage - 1) * scrollView.frame.size.width, 0) animated:YES];
@@ -181,16 +181,17 @@ typedef enum  {
 		[scrollView setContentOffset:CGPointMake((currentPage + 1) * scrollView.frame.size.width, 0) animated:YES];
 }
 
-- (void)statusBarPreferencesClicked:(ARStatusBarViewController *)bar {
+- (void)statusBarPreferencesClicked:(ARStatusBarViewController *)bar
+{
     MenuPreferences *menuPreferences = [[MenuPreferences alloc] initWithController:controller];
     [self.navigationController pushViewController:menuPreferences animated:NO];
     [menuPreferences release];
 }
 
-- (void)removeVisibleView {
-    
-    switch (m_visibleView) {
-            
+- (void)removeVisibleView
+{
+    switch (m_visibleView) 
+    {
         case USERS_VIDEOS_VIEW:
             [usersVideosViewController.view removeFromSuperview];
             [navBar displayWebPagesControls:NO];
@@ -211,10 +212,10 @@ typedef enum  {
     }
 }
 
-- (void)infoButtonlicked {
-    
-    if (!informationsButton.isSelected) {
-        
+- (void)infoButtonlicked
+{
+    if (!informationsButton.isSelected)
+    {
         [self removeVisibleView];
         
         [m_currentView addSubview:scrollView];
@@ -230,10 +231,10 @@ typedef enum  {
     }
 }
 
-- (void)usersVideosButtonClicked {
-    
-    if (!usersVideosButton.isSelected) {
-        
+- (void)usersVideosButtonClicked
+{
+    if (!usersVideosButton.isSelected)
+    {
         [self removeVisibleView];
         
         CGFloat marginHeight = (statusBar.view.frame.size.height + navBar.view.frame.size.height);
@@ -260,10 +261,10 @@ typedef enum  {
     }
 }
 
-- (void)backPageButtonClicked {
-    
-    switch (m_visibleView) {
-            
+- (void)backPageButtonClicked
+{
+    switch (m_visibleView) 
+    {
         case USERS_VIDEOS_VIEW:
             [usersVideosViewController.webView goBack];
             break;
@@ -275,10 +276,10 @@ typedef enum  {
     }
 }
 
-- (void)nextPageButtonClicked {
-    
-    switch (m_visibleView) {
-            
+- (void)nextPageButtonClicked
+{
+    switch (m_visibleView) 
+    {
         case USERS_VIDEOS_VIEW:
             [usersVideosViewController.webView goForward];
             break;
@@ -290,16 +291,16 @@ typedef enum  {
     }
 }
 
-- (void)webViewControllerDidFinishLoad:(ARWebViewController *)webViewController {
-    
+- (void)webViewControllerDidFinishLoad:(ARWebViewController *)webViewController
+{
     [navBar.backPageButton setEnabled:[webViewController.webView canGoBack]];
     [navBar.nextPageButton setEnabled:[webViewController.webView canGoForward]];
 }
 
-- (void)stayTunedButtonClicked {
-    
-    if (!stayTunedButton.isSelected) {
-        
+- (void)stayTunedButtonClicked
+{    
+    if (!stayTunedButton.isSelected)
+    {
         [self removeVisibleView];
         [m_currentView addSubview:m_stayTunedView];
         m_visibleView = STAY_TUNED_VIEW;
@@ -311,10 +312,10 @@ typedef enum  {
     }
 }
 
-- (void)tryItButtonClicked {
-    
-    if (!tryItButton.isSelected) {
-        
+- (void)tryItButtonClicked
+{
+    if (!tryItButton.isSelected)
+    {
         [self removeVisibleView];
         
         CGFloat marginHeight = (statusBar.view.frame.size.height + navBar.view.frame.size.height);
@@ -340,46 +341,46 @@ typedef enum  {
     }
 }
 
-- (void)goToWebsiteButtonClicked {
-    
+- (void)goToWebsiteButtonClicked
+{
     ARWebViewController *webViewController = [[ARWebViewController alloc] init];
     [self presentModalViewController:webViewController animated:YES];
     [webViewController loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:ARDRONE_WEBSITE_URL]]];
     [webViewController release];
 }
 
-- (void)signUpButtonClicked {
-    
+- (void)signUpButtonClicked
+{
     ARWebViewController *webViewController = [[ARWebViewController alloc] init];
     [self presentModalViewController:webViewController animated:YES];
     [webViewController loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:NEWSLETTER_URL]]];
     [webViewController release];
 }
 
-- (void)likeButtonClicked {
-    
+- (void)likeButtonClicked
+{
     ARWebViewController *webViewController = [[ARWebViewController alloc] init];
     [self presentModalViewController:webViewController animated:YES];
     [webViewController loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:FACEBOOK_URL]]];
     [webViewController release];
 }
 
-- (void)followButtonClicked {
-    
+- (void)followButtonClicked
+{
     ARWebViewController *webViewController = [[ARWebViewController alloc] init];
     [self presentModalViewController:webViewController animated:YES];
     [webViewController loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:TWITTER_URL]]];
     [webViewController release];
 }
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
     // Ok button
-    if (buttonIndex == 0) {
-        
+    if (buttonIndex == 0)
+    {
         // Leave app
-        switch (alertView.tag) {
-                
+        switch (alertView.tag) 
+        {
             case WHERE_TO_BUY_TAG:
                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:WHERE_TO_BUY_URL]];
                 break;

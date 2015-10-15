@@ -5,16 +5,14 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>English</string>
 		<key>CFBundleIdentifier</key>
-		<string>com.apple.xcode.dsym.de.code-unit.ardrone21</string>
+		<string>com.apple.xcode.dsym.de.code-unit.ardrone</string>
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundlePackageType</key>
 		<string>dSYM</string>
 		<key>CFBundleSignature</key>
 		<string>????</string>
-		<key>CFBundleShortVersionString</key>
-		<string>2.1</string>
 		<key>CFBundleVersion</key>
-		<string>2.1.0</string>
+		<string>2.0-SDK</string>
 	</dict>
 </plist>

@@ -4,7 +4,6 @@
 //
 //  Created by Frédéric D'Haeyer on 11/14/11.
 //  Copyright 2011 Parrot SA. All rights reserved.
-//  Updated for iOS 9 by Code Unit
 //
 
 #import "MenuPreferences.h"

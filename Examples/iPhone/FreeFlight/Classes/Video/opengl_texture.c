@@ -33,12 +33,11 @@ void opengl_texture_init(ARDroneOpenGLTexture *texture)
 //    vp_os_memset(texture, 0, sizeof(ARDroneOpenGLTexture));
 }
 
-void opengl_texture_scale_compute(ARDroneOpenGLTexture *texture, ARDroneSize screen_size, ARDroneScaling scaling) {
-    
+void opengl_texture_scale_compute(ARDroneOpenGLTexture *texture, ARDroneSize screen_size, ARDroneScaling scaling)
+{
 	printf("%s sizes %f, %f, %f, %f\n", __FUNCTION__, texture->image_size.width, texture->image_size.height, texture->texture_size.width, texture->texture_size.height);
-    
-	switch(scaling) {
-        #warning FIXME
+	switch(scaling)
+	{
 		case NO_SCALING:
 			texture->scaleModelX = texture->image_size.height / screen_size.width;
 			texture->scaleModelY = texture->image_size.width / screen_size.height;
