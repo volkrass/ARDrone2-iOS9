@@ -8,12 +8,10 @@ Hey, Die AR.Drone ist mit iOS 9 und der FreeFlight App leider unbrauchbar geword
 
 Erledigt:
 
-- Die ARDrone kann wieder gesteuert werden
-
-- iPhone 6 anpassungen
+- Die ARDrone kann wieder gesteuert werden (High)
 
 Zu erledigen:
 
-- Die App muss nach jedem Test neu installiert werden
+- Die App muss nach jedem Test neu installiert werden (High)
 
-- Für iPhone 4 / 5 / 6+ optimieren
+- Für iPhone 5 / 6 / 6+ optimieren (Med)
