@@ -14,4 +14,4 @@ Zu erledigen:
 
 - Die App muss nach jedem Test neu installiert werden (High)
 
-- Für iPhone 5 / 6 / 6+ optimieren (Med)
+- Für iPhone 5 / 6 / 6+ optimieren (Low)
